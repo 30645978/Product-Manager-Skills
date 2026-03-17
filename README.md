@@ -5,6 +5,7 @@
 [![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey?style=flat-square)](https://github.com/deanpeters/Product-Manager-Skills/blob/main/LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen?style=flat-square)](https://github.com/deanpeters/Product-Manager-Skills/blob/main/CONTRIBUTING.md)
 [![Version](https://img.shields.io/badge/version-v0.75-blue?style=flat-square)](https://github.com/deanpeters/Product-Manager-Skills)
+[![Claude Code Plugin](https://img.shields.io/badge/Claude%20Code-Plugin%20Marketplace-5C4EE5?style=flat-square)](https://code.claude.com/docs/en/plugin-marketplaces)
 ![Skills](https://img.shields.io/badge/skills-46-informational?style=flat-square)
 ![Commands](https://img.shields.io/badge/commands-6-informational?style=flat-square)
 ![Streamlit Beta](https://img.shields.io/badge/streamlit-beta-orange?style=flat-square)
@@ -51,6 +52,12 @@ What changed in v0.75:
 - `AGENTS.md` — New Operating Philosophy section so coding agents don't optimize away the teaching
 
 Release note: [`docs/announcements/2026-03-17-v0-75-pedagogic-first.md`](docs/announcements/2026-03-17-v0-75-pedagogic-first.md)
+
+**Coming in the next update:** Install skills directly from Claude Code via the plugin marketplace:
+```bash
+/plugin marketplace add deanpeters/Product-Manager-Skills
+/plugin install jobs-to-be-done@pm-skills
+```
 
 ---
 
